@@ -1,0 +1,102 @@
+@import '~antd/dist/antd.css';
+img{
+    max-width:100%
+}
+.wrap {
+    margin: 0 5px;
+}
+#header{
+    padding:0;
+}
+#header .ant-menu{
+    line-height: 64px;
+}
+#footer{
+    padding: 20px 0;
+}
+#logo{
+    text-align:center;
+}
+.wrap .topics_list{
+    min-width: 100vh;
+    background-color: #fff;
+    padding:0 20px
+}
+.wrap .index_nav {
+    margin-top:20px
+}
+#root .page{
+    min-height: 100vh;
+}
+.topic_tag{
+    margin: 0 10px;
+}
+.from_now{
+    text-align:right
+}
+.index_pagination{
+    border-top: 1px solid #f0f0f0;
+    padding:10px 5px;
+    background-color: #fff;
+    display:flex;
+}
+.index_pagination>ul{
+    margin: auto;
+}
+.topic .ant-card{
+    margin-top:10px
+
+}
+.item_title{
+    margin-left: 30px;
+}
+.user_page .ant-card{
+    margin-top:20px;
+}
+.user_page .user_detail{
+    text-align: center;
+}
+@media all and (min-width:576px){
+    .wrap{
+        margin:0 10px;
+    }
+    .wrap .topics_list{
+        min-width: 100vh;
+        padding:0 10px
+    }
+}
+
+@media all and ( min-width:768px){
+    .wrap{
+        margin:0 20px;
+    }
+}
+
+@media all and ( min-width:768px){
+    .wrap{
+        margin:0 20px;
+    }
+    .wrap .topics_list{
+        min-width: 100vh;
+        padding:0 30px
+    }
+}
+
+@media all and ( min-width:1200px){
+    .wrap{
+        margin:0 auto;
+        width: 980px;
+    }
+    .wrap .topics_list{
+        min-width: 100vh;
+        padding:0 40px
+    }
+}
+
+@media all and ( min-width:1600px){
+    .wrap{
+        margin:0 auto;
+        width: 1200px;
+    }
+}
+
